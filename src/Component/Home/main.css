@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+
+.home {
+  padding-top: 24px;
+}
+
+.home-heading {
+  margin: 0;
+  margin-bottom: 36px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.home-line {
+  background: #D8D8D8;
+  max-width: 815px;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.home-comment-desc {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #828282;
+}
+
+.home-comment-btn {
+  padding: 15px 30px;
+  border: none;
+  background: #1DA1F2;
+  opacity: 0.4;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 120px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.home-comment-btn:hover {
+  opacity: 1;
+}
+
+.home-comment-btn:active {
+  opacity: 0.5;
+}
+
+.home-comment-design-heading {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.home-comment-design-desc {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.home-comment-design-desc-small {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}

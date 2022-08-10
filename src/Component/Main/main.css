@@ -1,0 +1,12 @@
+
+.main {
+  max-width: 840px;
+  width: 100%;
+}
+
+.containers {
+  width: 100%;
+  max-width: 1457px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
