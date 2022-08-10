@@ -5,6 +5,7 @@ import Profile from '../Profile'
 import Question from '../Question'
 import Home from '../Home'
 import Yuriqnoma from '../Yuriqnoma'
+import Error from '../Error'
 import Search from '../Search'
 import './main.css'
 
@@ -18,6 +19,7 @@ function index(props) {
           <Route path='/home' element={<Home />} />
           <Route path='/profile' element={<Profile />} />
           <Route path='/question' element={<Question />} />
+          <Route path='*' element={<Error />} />
         </Routes>
       </main>
     <Search />
