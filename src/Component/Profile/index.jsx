@@ -3,19 +3,27 @@ import arrow from '../../assets/images/arrow.png'
 import two from '../../assets/images/two.png'
 import bobur from '../../assets/images/bobur.png'
 import comment from '../../assets/images/comment.png'
+import { useNavigate } from 'react-router-dom';
 import './main.css'
 
 function index(props) {
+
+  const navigate = useNavigate();
+
   return (
     <section className='home'>
       <div className="container d-flex flex-column">
-        <div className='home-top mb-3 d-flex align-items-center'>
+        <div className='mb-3 d-flex align-items-center justify-content-between'>
+          <div className='home-top mb-3 d-flex align-items-center'>
           <img src={arrow} alt="arrow" width='20' height='16' />
 
           <div className='ms-4'>
           <h1 className='home-top-heading'>Bobur</h1>
           <p className='home-top-desc'>1,070 Tweets</p>
           </div>
+
+          </div>
+          <button className='btn btn-info w-25 py-3 rounded-4' onClick={() => navigate('/')}>Log out</button>
         </div>
 
         <div>

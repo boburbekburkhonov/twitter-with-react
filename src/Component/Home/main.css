@@ -81,3 +81,27 @@
   line-height: 24px;
   color: #000000;
 }
+
+.btn-log {
+  padding: 15px 0;
+  max-width: 150px;
+  width: 100%;
+  border-radius: 76px;
+  border: transparent;
+  background: #1DA1F2;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn-log:hover {
+  background: #000000;
+  color: #1DA1F2;
+}
+
+.btn-log:active {
+  opacity: 0.5;
+}

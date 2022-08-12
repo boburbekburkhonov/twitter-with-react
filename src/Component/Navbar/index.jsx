@@ -50,7 +50,7 @@ function index(props) {
       <div className="container">
         <nav className='navbar mx-auto'>
           <div>
-          <NavLink to='/' className='logo d-inline-block mb-5 ' href="#">
+          <NavLink to='/info' className='logo d-inline-block mb-5 ' href="#">
             <img src={logo} alt="logo" width='40' height='33' />
           </NavLink>
 

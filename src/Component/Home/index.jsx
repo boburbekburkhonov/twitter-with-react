@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import bobur from '../../assets/images/bobur.png'
 import images from '../../assets/images/images.png'
 import design from '../../assets/images/design.png'
@@ -7,10 +8,17 @@ import clou from '../../assets/images/clou.png'
 import './main.css'
 
 function index(props) {
+
+  const navigate = useNavigate();
+
   return (
     <section className='home'>
       <div className="container">
+        <div className='d-flex justify-content-between align-items-center mb-3'>
         <h2 className='home-heading'>Home</h2>
+
+        <button className='btn-log' onClick={() => navigate('/')}>Log out</button>
+        </div>
 
         <div className='home-line'></div>
 
